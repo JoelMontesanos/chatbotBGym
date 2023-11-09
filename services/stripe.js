@@ -1,22 +1,22 @@
 const { encryptData } = require("../utils/hash");
 
-const handlerStripe = async (phone = '', email = '',plan='') => {
+const handlerStripe = async (plan='') => {
   
-  let stripeApiBase64 = ''
+  let priceId = ''
   switch (plan){
-    case '1':  stripeApiBase64 = process.env.DIAS5;
-    console.log('5 Días');
+    case '5 Días':  priceId = process.env.DIAS5;
+    console.log(process.env.DIAS5);
     break;
-    case '2': stripeApiBase64 = process.env.DIAS3;
-    console.log('3 Días');
+    case '3 Días': priceId = process.env.DIAS3;
+    console.log(process.env.DIAS3);
     break;
-    case '3': stripeApiBase64 = process.env.PAREJA;
-    console.log('Pareja');
+    case 'Pareja': priceId = process.env.PAREJA;
+    console.log(process.env.PAREJA);
     break;
     default:
       break; 
   }
-  const priceId = process.env.PRODUCT_ID;
+  const stripeApiBase64 = process.env.STRIPE_SK_BASE64
   const FRONT_URL = process.env.FRONT;
 
   const URL = `https://api.stripe.com/v1/checkout/sessions`;
@@ -30,8 +30,8 @@ const handlerStripe = async (phone = '', email = '',plan='') => {
   urlencoded.append("line_items[0][quantity]", "1");
   urlencoded.append("allow_promotion_codes", "false");
   urlencoded.append("customer_creation", "always");
-  urlencoded.append("success_url", `${FRONT_URL}/api/callback?p=${encryptData(`${phone}__success__${email}`)}`);
-  urlencoded.append("cancel_url", `${FRONT_URL}/api/callback?p=${encryptData(`${phone}__fail__${email}`)}`);
+  urlencoded.append("success_url", `${FRONT_URL}`);
+  urlencoded.append("cancel_url", `${FRONT_URL}`);
   urlencoded.append("mode", "payment");
 
   const requestOptions = {

@@ -1,3 +1,4 @@
+require('dotenv').config()
 const { createBot, createProvider, createFlow, addKeyword } = require('@bot-whatsapp/bot')
 
 const QRPortalWeb = require('@bot-whatsapp/portal')

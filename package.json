@@ -15,7 +15,7 @@
         "@bot-whatsapp/portal": "latest",
         "@bot-whatsapp/provider": "latest",
         "@whiskeysockets/baileys": "^6.4.0",
-        "env": "^0.0.2",
+        "dotenv": "^16.3.1",
         "mysql": "^2.18.1",
         "wa-sticker-formatter": "4.3.2"
     },
