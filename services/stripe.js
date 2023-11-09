@@ -1,8 +1,21 @@
 const { encryptData } = require("../utils/hash");
 
-const handlerStripe = async (phone = '', email = '') => {
-
-  const stripeApiBase64 = process.env.STRIPE_SK_BASE64
+const handlerStripe = async (phone = '', email = '',plan='') => {
+  
+  let stripeApiBase64 = ''
+  switch (plan){
+    case '1':  stripeApiBase64 = process.env.DIAS5;
+    console.log('5 Días');
+    break;
+    case '2': stripeApiBase64 = process.env.DIAS3;
+    console.log('3 Días');
+    break;
+    case '3': stripeApiBase64 = process.env.PAREJA;
+    console.log('Pareja');
+    break;
+    default:
+      break; 
+  }
   const priceId = process.env.PRODUCT_ID;
   const FRONT_URL = process.env.FRONT;
 

@@ -4,7 +4,11 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
-
+const welcome = require('./flows/welcomeFlow')
+const headcoach = require('./flows/headcoachFlow')
+const sellercoach = require('./flows/sellercoachFlow')
+const pagar = require('./flows/pagarFlow')
+const costos = require('./flows/costosFlow')
 
 
 const main = async () => {
