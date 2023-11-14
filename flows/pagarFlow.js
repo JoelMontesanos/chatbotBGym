@@ -27,7 +27,7 @@ module.exports = addKeyword(['pagar'])
 })
 /*---------------- */
 .addAction(async(_,{flowDynamic})=>{
-    return flowDynamic(['¿Cual es tu plan?','Escribe: ','*5* para: Plan 5 Días', '*3* para: Plan 3 Días','*PP* para: Plan Pareja'])
+    return flowDynamic(['¿Cual es tu plan?','Escribe: ','*2* para: Plan Pareja','*3* para: Plan 3 Días','*5* para: Plan 5 Días'])
 })
 .addAction({capture:true},async(ctx,{flowDynamic})=>{
     plan = ctx.body
@@ -38,7 +38,7 @@ module.exports = addKeyword(['pagar'])
         break;
         case '3': plan = '3 Días';
         break;
-        case 'PP': plan = 'Pareja';
+        case '2': plan = 'Pareja';
         break;
         default:
         break;
