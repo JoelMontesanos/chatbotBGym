@@ -2,10 +2,10 @@
   key: {
     remoteJid: '5214423501149@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0E7E2D96E7E79C5BEF0',
+    id: '3EB094433FB2279CE02DEA',
     participant: undefined
   },
-  messageTimestamp: 1699985954,
+  messageTimestamp: 1700026979,
   pushName: 'joel montesanos',
   broadcast: false,
   message: Message {
@@ -19,8 +19,8 @@
   from: '5214423501149'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_21dfa827-6878-4a0c-8c31-e0dda5a62ad5',
-  keyword: 'key_5e50563b-952c-455d-89f7-b9e382e9fc1c',
+  ref: 'ans_9847d07b-4fba-4cf8-8a87-b6637466a45e',
+  keyword: 'key_d2ac405d-4859-48a5-915b-97d8a5411dab',
   answer: 'Perfecto! Generemos tu link de pago',
   options: {
     media: null,
@@ -34,11 +34,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'ee3768e481edd17231e2586428cb7db0'
+  refSerialize: 'd2bb912d417a8a30605e9ed9a5c6e80b'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1c0a728f-4133-452d-bf0f-64d2ee6732b0',
-  keyword: 'ans_21dfa827-6878-4a0c-8c31-e0dda5a62ad5',
+  ref: 'ans_9b102e83-126c-4a2c-8b23-263db4a3f435',
+  keyword: 'ans_9847d07b-4fba-4cf8-8a87-b6637466a45e',
   answer: '__call_action__',
   options: {
     media: null,
@@ -52,11 +52,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '308d571f1327970dd9342ebbca92a347'
+  refSerialize: '0299a354f8936d726f152342e76d9e1b'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_05eeb883-b3fd-4097-806b-d11ebdfa42ec',
-  keyword: 'ans_1c0a728f-4133-452d-bf0f-64d2ee6732b0',
+  ref: 'ans_ed2b0101-ee6d-4c9a-b309-756ca2c339af',
+  keyword: 'ans_9b102e83-126c-4a2c-8b23-263db4a3f435',
   answer: '__capture_only_intended__',
   options: {
     media: null,
@@ -70,31 +70,31 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '0008b876a4638c2bef4c1c53d21024b0'
+  refSerialize: 'b3ece26794abf0d5bf99b129ac237d55'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5214423501149@s.whatsapp.net',
     fromMe: false,
-    id: '3EB08B14E509931AA63960',
+    id: '3EB03E689A31B8CB4FB25E',
     participant: undefined
   },
-  messageTimestamp: 1699985963,
+  messageTimestamp: 1700026988,
   pushName: 'joel montesanos',
   broadcast: false,
   message: Message {
-    conversation: 'Joel Montesanos',
+    conversation: 'Armando Colin',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Joel Montesanos',
+  body: 'Armando Colin',
   from: '5214423501149'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2f884b52-cd3e-46fa-931a-7271b768c8d9',
-  keyword: 'ans_05eeb883-b3fd-4097-806b-d11ebdfa42ec',
+  ref: 'ans_e9ac94f4-46fa-4a29-8c4c-59b05305b994',
+  keyword: 'ans_ed2b0101-ee6d-4c9a-b309-756ca2c339af',
   answer: '__call_action__',
   options: {
     media: null,
@@ -108,11 +108,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'be6877d254dc9baa0a552902a2cfb22e'
+  refSerialize: '5734ecdc6acd021521e330aa345e1aae'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_9bb9f230-2cae-4eac-94a3-104e96af84ff',
-  keyword: 'ans_2f884b52-cd3e-46fa-931a-7271b768c8d9',
+  ref: 'ans_5f2e0714-8077-4ad2-bcfe-87dfe8ace19f',
+  keyword: 'ans_e9ac94f4-46fa-4a29-8c4c-59b05305b994',
   answer: '__capture_only_intended__',
   options: {
     media: null,
@@ -126,16 +126,16 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '3980f77da9d3f062b944d89be757bc92'
+  refSerialize: '84e9ad0b6cd3814790add6e9170f73b7'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5214423501149@s.whatsapp.net',
     fromMe: false,
-    id: '3EB06D2C8F367E06A48B15',
+    id: '3EB0D8AAB8CA2E3DC5FE37',
     participant: undefined
   },
-  messageTimestamp: 1699985965,
+  messageTimestamp: 1700026990,
   pushName: 'joel montesanos',
   broadcast: false,
   message: Message {
@@ -149,8 +149,8 @@
   from: '5214423501149'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_3395de71-33ef-4428-b8c8-7f2fc19bdcc7',
-  keyword: 'ans_9bb9f230-2cae-4eac-94a3-104e96af84ff',
+  ref: 'ans_6a1f4223-d4be-43cd-896d-cd1e873817be',
+  keyword: 'ans_5f2e0714-8077-4ad2-bcfe-87dfe8ace19f',
   answer: '__call_action__',
   options: {
     media: null,
@@ -164,11 +164,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '7e78b0a14ddd4a471f3f1fc56c48b9b9'
+  refSerialize: '3b93faf49edbf00473f5136cafbcabfd'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5d543043-c3cf-41ce-9eac-6c1ee244a39e',
-  keyword: 'ans_3395de71-33ef-4428-b8c8-7f2fc19bdcc7',
+  ref: 'ans_710643d7-bc96-4bf3-9d3f-698bdb762853',
+  keyword: 'ans_6a1f4223-d4be-43cd-896d-cd1e873817be',
   answer: '__capture_only_intended__',
   options: {
     media: null,
@@ -182,16 +182,16 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'c63e490c581f726ca4290cb067539b54'
+  refSerialize: 'ee19e1f428a0e23a7adafbaa50ce365b'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5214423501149@s.whatsapp.net',
     fromMe: false,
-    id: '3EB012D38A759A90D80235',
+    id: '3EB0B8D308E39D4C4DAAC3',
     participant: undefined
   },
-  messageTimestamp: 1699985973,
+  messageTimestamp: 1700026993,
   pushName: 'joel montesanos',
   broadcast: false,
   message: Message {
@@ -203,61 +203,4 @@
   },
   body: '5',
   from: '5214423501149'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5214423501149@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0149F1E14AD94E31A4F',
-    participant: undefined
-  },
-  messageTimestamp: 1699985984,
-  pushName: 'joel montesanos',
-  broadcast: false,
-  message: Message {
-    conversation: 'Gracias',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Gracias',
-  from: '5214423501149'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_42652ba9-a37b-46ef-a443-ebbb5e664a3d',
-  keyword: 'key_ebcbf196-77d9-478a-a099-a8e91d2a4bff',
-  answer: '__call_action__',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '12f8e36469e1cb40249ecfb81004c093'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b9c39581-ec32-4649-a539-20cad14a23c3',
-  keyword: 'ans_42652ba9-a37b-46ef-a443-ebbb5e664a3d',
-  answer: 'Bienvenido, en que te podemos ayudar?\n' +
-    'Puedo ayudarte a saber *horarios*, *costos*, *benficios* de hacer corssfit o *pagar tu mensualidad* ',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'f5bb9c086ccf015ce3e703b313f3ff2b'
 }

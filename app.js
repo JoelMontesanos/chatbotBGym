@@ -1,7 +1,7 @@
 require('dotenv').config()
 const { createBot, createProvider, createFlow, addKeyword } = require('@bot-whatsapp/bot')
 
-const QRPortalWeb = require('@bot-whatsapp/portal')
+
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
@@ -11,6 +11,7 @@ const sellercoach = require('./flows/sellercoachFlow')
 const pagar = require('./flows/pagarFlow')
 const costos = require('./flows/costosFlow')
 
+const ServerAPI = require("./http");
 
 const main = async () => {
     const adapterDB = new MockAdapter()
@@ -22,14 +23,15 @@ const main = async () => {
         costos,
     ])
     const adapterProvider = createProvider(BaileysProvider)
+    
+    const httpServer = new ServerAPI(adapterProvider, adapterDB)
 
     createBot({
         flow: adapterFlow,
         provider: adapterProvider,
         database: adapterDB,
     })
-
-    QRPortalWeb()
+    httpServer.start()
 }
 
 main()
