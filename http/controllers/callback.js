@@ -6,7 +6,7 @@ const ctrlCallBack = async (req, res) => {
   const payload = req.query.p;
   const adapterDB = req.db;
   const adapterProvider = req.ws;
-  const phoneOwner = '52 1 442 479 93 07';
+  const phoneOwner = '5214424799307';
   let redirectUrl = "https://www.instagram.com/bulletjuriquilla/";
 
 
@@ -33,6 +33,12 @@ const ctrlCallBack = async (req, res) => {
       `${phone}@c.us`,
       [
         "Muchas gracias por tu pago!! Te esperamos en Bullet!  🙌",
+      ].join("\n")
+    );
+    await adapterProvider.sendText(
+      `${phoneOwner}@c.us`,
+      [
+        `Hola! Para comentarte que el celular`, `${phone}`, `a nombre de`, `${nombre}`, `ya pagó`,
       ].join("\n")
     );
     try {
