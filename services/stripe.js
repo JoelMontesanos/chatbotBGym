@@ -32,8 +32,8 @@ const handlerStripe = async (nombre = '', horario = '',phone = '', plan='') => {
   urlencoded.append("line_items[0][quantity]", "1");
   urlencoded.append("allow_promotion_codes", "false");
   urlencoded.append("customer_creation", "always");
-  urlencoded.append("success_url", `chatbotbgym-production.up.railway.app/api/callback?p=${encryptData(`${phone}__success__${plan}__${nombre}__${horario}`)}`);
-  urlencoded.append("cancel_url", `chatbotbgym-production.up.railway.app/api/callback?p=${encryptData(`${phone}__fail__${plan}__${nombre}__${horario}`)}`);
+  urlencoded.append("success_url", `${FRONT_URL}/api/callback?p=${encryptData(`${phone}__success__${plan}__${nombre}__${horario}`)}`);
+  urlencoded.append("cancel_url", `${FRONT_URL}/api/callback?p=${encryptData(`${phone}__fail__${plan}__${nombre}__${horario}`)}`);
   urlencoded.append("mode", "payment");
 
   const requestOptions = {
