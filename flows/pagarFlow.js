@@ -4,7 +4,6 @@ const {handlerStripe} = require('../services/stripe');
 
 
 var nombre;
-var phone;
 var horario;
 const mapeoPlanes = {
     '5': '5 Días',
