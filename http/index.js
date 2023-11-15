@@ -23,8 +23,8 @@ class ServerAPI {
     app.use(express.json())
     app.use("/api", middleware, require("./routes"));
     app.listen(PORT, () => {
-        console.log(`http://localhost:${PORT}/api/qr`)
-        console.log(`http://localhost:${PORT}/api/callback`)
+        console.log(`chatbotbgym-production.up.railway.app/api/qr`)
+        console.log(`chatbotbgym-production.up.railway.app/api/callback`)
     });
   }
 }
