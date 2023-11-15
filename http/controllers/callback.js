@@ -6,7 +6,7 @@ const ctrlCallBack = async (req, res) => {
   const payload = req.query.p;
   const adapterDB = req.db;
   const adapterProvider = req.ws;
-  const phoneOwner = '5214424799307';
+  const phoneOwner = '5214423501149';
   let redirectUrl = "https://www.instagram.com/bulletjuriquilla/";
 
 
