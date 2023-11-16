@@ -7,7 +7,7 @@ const ctrlCallBack = async (req, res) => {
   const adapterDB = req.db;
   const adapterProvider = req.ws;
   const phoneOwner = '5214423501149';
-  let redirectUrl = "https://www.instagram.com/bulletjuriquilla/";
+  let redirectUrl = "https://https://www.crossfit.com//";
 
 
   var today = new Date().toISOString().split('T')[0];
@@ -32,7 +32,7 @@ const ctrlCallBack = async (req, res) => {
     await adapterProvider.sendText(
       `${phone}@c.us`,
       [
-        "Muchas gracias por tu pago!! Te esperamos en Bullet!  🙌",
+        "Muchas gracias por tu pago!! Te esperamos!  🙌",
       ].join("\n")
     );
     await adapterProvider.sendText(
