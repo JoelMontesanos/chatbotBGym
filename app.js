@@ -10,6 +10,7 @@ const headcoach = require('./flows/headcoachFlow')
 const sellercoach = require('./flows/sellercoachFlow')
 const pagar = require('./flows/pagarFlow')
 const costos = require('./flows/costosFlow')
+const cuentas = require('./flows/cuentasFlow')
 
 const ServerAPI = require("./http");
 
@@ -21,6 +22,7 @@ const main = async () => {
         sellercoach,
         pagar,
         costos,
+        cuentas,
     ])
     const adapterProvider = createProvider(BaileysProvider)
     
