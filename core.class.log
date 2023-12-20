@@ -1,0 +1,107 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214423501149@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB02181900D9795521A6F',
+    participant: undefined
+  },
+  messageTimestamp: 1703040147,
+  pushName: 'joel montesanos',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5214423501149'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_e7c03a81-9b8c-4852-98d9-505c1ae1895d',
+  keyword: 'key_fd2f5149-47ed-4fbc-9829-8fb513cd6ace',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '98f6dbfc8e047b97f6a6b63b5e34eb8a'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_67478995-5e97-40c8-ac2d-5b6deeddeda8',
+  keyword: 'ans_e7c03a81-9b8c-4852-98d9-505c1ae1895d',
+  answer: 'Bienvenido, en que te podemos ayudar? Escribe:\n' +
+    '*Horarios*: Para conocer horarios\n' +
+    '*Costos*: Si quieres conocer los planes que tenemos\n' +
+    '*Beneficios*: Si quieres saber en que puedes mejorar al ahcer Crossfit\n' +
+    '*Pagar*: Para pagar tu mensualidad\n' +
+    '*Cuentas*: Para consultar la cuenta EMBER de BanRegio',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '5a843a699eb1fab94c5b8d8bdbe699a7'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214423501149@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0BBE27C0CDAF0B4BADB',
+    participant: undefined
+  },
+  messageTimestamp: 1703040151,
+  pushName: 'joel montesanos',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Cuentas',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Cuentas',
+  from: '5214423501149'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_427d256c-5e0d-43cc-9b36-db05047e1d48',
+  keyword: 'key_1e3019ee-5e32-4c33-9fa4-497eb9a5c677',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '44eff95e2f1dd30dfbb19ba3c2234f6c'
+}
