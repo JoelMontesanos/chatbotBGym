@@ -9,6 +9,7 @@ const menu = require('./flows/menuFlow')
 const horarios = require('./flows/horariosFlow')
 const pagar = require('./flows/pagarFlow')
 const cuentas = require('./flows/cuentasFlow')
+const empresas = require('./flows/empresasFlow')
 
 const ServerAPI = require("./http");
 
@@ -19,6 +20,7 @@ const main = async () => {
         horarios,
         pagar,
         cuentas,
+        empresas,
     ])
     const adapterProvider = createProvider(BaileysProvider)
     
