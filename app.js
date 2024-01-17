@@ -5,7 +5,7 @@ const { createBot, createProvider, createFlow, addKeyword } = require('@bot-what
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
-const welcome = require('./flows/welcomeFlow')
+const menu = require('./flows/menuFlow')
 const horarios = require('./flows/horariosFlow')
 const pagar = require('./flows/pagarFlow')
 const cuentas = require('./flows/cuentasFlow')
@@ -15,7 +15,7 @@ const ServerAPI = require("./http");
 const main = async () => {
     const adapterDB = new MockAdapter()
     const adapterFlow = createFlow([
-        welcome,
+        menu,
         horarios,
         pagar,
         cuentas,
