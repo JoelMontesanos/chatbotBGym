@@ -1,6 +1,6 @@
 const { addKeyword, EVENTS } = require("@bot-whatsapp/bot");
 
-module.exports = addKeyword(['Menú','Menu', 'Meni']).addAction(async(ctx,ctxFn)=>{})
+module.exports = addKeyword(['Menú','Menu', 'Meni','menu']).addAction(async(ctx,ctxFn)=>{})
     
 .addAnswer([
     'Bienvenido, en que te podemos ayudar? Escribe:',
