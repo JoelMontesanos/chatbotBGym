@@ -2,29 +2,25 @@
   key: {
     remoteJid: '5214423501149@s.whatsapp.net',
     fromMe: false,
-    id: '3EB02181900D9795521A6F',
+    id: '3A2CB010CF56C35F5A74',
     participant: undefined
   },
-  messageTimestamp: 1703040147,
+  messageTimestamp: 1706940171,
   pushName: 'joel montesanos',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'hola',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: 'operaciones',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'hola',
+  body: 'operaciones',
   from: '5214423501149'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_e7c03a81-9b8c-4852-98d9-505c1ae1895d',
-  keyword: 'key_fd2f5149-47ed-4fbc-9829-8fb513cd6ace',
+  ref: 'ans_35c62406-765b-42f3-acc6-fafb4f74e646',
+  keyword: 'key_3a545255-60da-4669-adb6-bdd4281b7ed1',
   answer: '__call_action__',
   options: {
     media: null,
@@ -38,58 +34,69 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '98f6dbfc8e047b97f6a6b63b5e34eb8a'
+  refSerialize: '000966e1c61d64b55e40178adf4d7916'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_67478995-5e97-40c8-ac2d-5b6deeddeda8',
-  keyword: 'ans_e7c03a81-9b8c-4852-98d9-505c1ae1895d',
-  answer: 'Bienvenido, en que te podemos ayudar? Escribe:\n' +
-    '*Horarios*: Para conocer horarios\n' +
-    '*Costos*: Si quieres conocer los planes que tenemos\n' +
-    '*Beneficios*: Si quieres saber en que puedes mejorar al ahcer Crossfit\n' +
-    '*Pagar*: Para pagar tu mensualidad\n' +
-    '*Cuentas*: Para consultar la cuenta EMBER de BanRegio',
+  ref: 'ans_132910fb-3eb6-47e8-bd8a-879c13f11371',
+  keyword: 'ans_35c62406-765b-42f3-acc6-fafb4f74e646',
+  answer: '__capture_only_intended__',
   options: {
     media: null,
     buttons: [],
-    capture: false,
+    capture: true,
     child: null,
     delay: 0,
     idle: null,
     ref: null,
     nested: [],
     keyword: {},
-    callback: false
+    callback: true
   },
-  refSerialize: '5a843a699eb1fab94c5b8d8bdbe699a7'
+  refSerialize: 'd30a7f2941135574cb853f046b5c9d8d'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5214423501149@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0BBE27C0CDAF0B4BADB',
+    id: '3ADE83802CA7AA074275',
     participant: undefined
   },
-  messageTimestamp: 1703040151,
+  messageTimestamp: 1706940173,
   pushName: 'joel montesanos',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Cuentas',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: '003-MR',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Cuentas',
+  body: '003-MR',
+  from: '5214423501149'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214423501149@s.whatsapp.net',
+    fromMe: false,
+    id: '3A3C0C19D4B6462B0303',
+    participant: undefined
+  },
+  messageTimestamp: 1706940219,
+  pushName: 'joel montesanos',
+  broadcast: false,
+  message: Message {
+    conversation: 'operaciones',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'operaciones',
   from: '5214423501149'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_427d256c-5e0d-43cc-9b36-db05047e1d48',
-  keyword: 'key_1e3019ee-5e32-4c33-9fa4-497eb9a5c677',
+  ref: 'ans_35c62406-765b-42f3-acc6-fafb4f74e646',
+  keyword: 'key_3a545255-60da-4669-adb6-bdd4281b7ed1',
   answer: '__call_action__',
   options: {
     media: null,
@@ -103,5 +110,575 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '44eff95e2f1dd30dfbb19ba3c2234f6c'
+  refSerialize: '000966e1c61d64b55e40178adf4d7916'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_132910fb-3eb6-47e8-bd8a-879c13f11371',
+  keyword: 'ans_35c62406-765b-42f3-acc6-fafb4f74e646',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'd30a7f2941135574cb853f046b5c9d8d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214423501149@s.whatsapp.net',
+    fromMe: false,
+    id: '3A47C04B8B04B995B386',
+    participant: undefined
+  },
+  messageTimestamp: 1706940227,
+  pushName: 'joel montesanos',
+  broadcast: false,
+  message: Message {
+    conversation: '003-MR',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '003-MR',
+  from: '5214423501149'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214423501149@s.whatsapp.net',
+    fromMe: false,
+    id: '3AA30FDEBB2A7A8271AE',
+    participant: undefined
+  },
+  messageTimestamp: 1706940297,
+  pushName: 'joel montesanos',
+  broadcast: false,
+  message: Message {
+    conversation: 'operaciones',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'operaciones',
+  from: '5214423501149'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_35c62406-765b-42f3-acc6-fafb4f74e646',
+  keyword: 'key_3a545255-60da-4669-adb6-bdd4281b7ed1',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '000966e1c61d64b55e40178adf4d7916'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_132910fb-3eb6-47e8-bd8a-879c13f11371',
+  keyword: 'ans_35c62406-765b-42f3-acc6-fafb4f74e646',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'd30a7f2941135574cb853f046b5c9d8d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214423501149@s.whatsapp.net',
+    fromMe: false,
+    id: '3A4A4356E9ACACAB456B',
+    participant: undefined
+  },
+  messageTimestamp: 1706940300,
+  pushName: 'joel montesanos',
+  broadcast: false,
+  message: Message {
+    conversation: 'joelMontesano',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'joelMontesano',
+  from: '5214423501149'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214423501149@s.whatsapp.net',
+    fromMe: false,
+    id: '3AF066DD759F60B9F505',
+    participant: undefined
+  },
+  messageTimestamp: 1706940657,
+  pushName: 'joel montesanos',
+  broadcast: false,
+  message: Message {
+    conversation: 'operaciones',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'operaciones',
+  from: '5214423501149'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_35c62406-765b-42f3-acc6-fafb4f74e646',
+  keyword: 'key_3a545255-60da-4669-adb6-bdd4281b7ed1',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '000966e1c61d64b55e40178adf4d7916'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_132910fb-3eb6-47e8-bd8a-879c13f11371',
+  keyword: 'ans_35c62406-765b-42f3-acc6-fafb4f74e646',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'd30a7f2941135574cb853f046b5c9d8d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214423501149@s.whatsapp.net',
+    fromMe: false,
+    id: '3A48D5968C151D48EAD8',
+    participant: undefined
+  },
+  messageTimestamp: 1706940672,
+  pushName: 'joel montesanos',
+  broadcast: false,
+  message: Message {
+    conversation: '001-MTJ',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '001-MTJ',
+  from: '5214423501149'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214423501149@s.whatsapp.net',
+    fromMe: false,
+    id: '3A3441DC401345DD7249',
+    participant: undefined
+  },
+  messageTimestamp: 1706940685,
+  pushName: 'joel montesanos',
+  broadcast: false,
+  message: Message {
+    conversation: 'operaciones',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'operaciones',
+  from: '5214423501149'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_35c62406-765b-42f3-acc6-fafb4f74e646',
+  keyword: 'key_3a545255-60da-4669-adb6-bdd4281b7ed1',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '000966e1c61d64b55e40178adf4d7916'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_132910fb-3eb6-47e8-bd8a-879c13f11371',
+  keyword: 'ans_35c62406-765b-42f3-acc6-fafb4f74e646',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'd30a7f2941135574cb853f046b5c9d8d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214423501149@s.whatsapp.net',
+    fromMe: false,
+    id: '3A97406A1A97C498AF5C',
+    participant: undefined
+  },
+  messageTimestamp: 1706940689,
+  pushName: 'joel montesanos',
+  broadcast: false,
+  message: Message {
+    conversation: 'joelMontesano',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'joelMontesano',
+  from: '5214423501149'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214423501149@s.whatsapp.net',
+    fromMe: false,
+    id: '3A19BC40C334D7D13D24',
+    participant: undefined
+  },
+  messageTimestamp: 1706941085,
+  pushName: 'joel montesanos',
+  broadcast: false,
+  message: Message {
+    conversation: 'operaciones',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'operaciones',
+  from: '5214423501149'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_35c62406-765b-42f3-acc6-fafb4f74e646',
+  keyword: 'key_3a545255-60da-4669-adb6-bdd4281b7ed1',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '000966e1c61d64b55e40178adf4d7916'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_132910fb-3eb6-47e8-bd8a-879c13f11371',
+  keyword: 'ans_35c62406-765b-42f3-acc6-fafb4f74e646',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'd30a7f2941135574cb853f046b5c9d8d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214423501149@s.whatsapp.net',
+    fromMe: false,
+    id: '3A99FA61AFC26524791C',
+    participant: undefined
+  },
+  messageTimestamp: 1706941089,
+  pushName: 'joel montesanos',
+  broadcast: false,
+  message: Message {
+    conversation: 'joelMontesano',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'joelMontesano',
+  from: '5214423501149'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214423501149@s.whatsapp.net',
+    fromMe: false,
+    id: '3A7C701ED4772BB1F66C',
+    participant: undefined
+  },
+  messageTimestamp: 1706941098,
+  pushName: 'joel montesanos',
+  broadcast: false,
+  message: Message {
+    conversation: 'operaciones',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'operaciones',
+  from: '5214423501149'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_35c62406-765b-42f3-acc6-fafb4f74e646',
+  keyword: 'key_3a545255-60da-4669-adb6-bdd4281b7ed1',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '000966e1c61d64b55e40178adf4d7916'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_132910fb-3eb6-47e8-bd8a-879c13f11371',
+  keyword: 'ans_35c62406-765b-42f3-acc6-fafb4f74e646',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'd30a7f2941135574cb853f046b5c9d8d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214423501149@s.whatsapp.net',
+    fromMe: false,
+    id: '3A2FECA04A6A2126DC9E',
+    participant: undefined
+  },
+  messageTimestamp: 1706941108,
+  pushName: 'joel montesanos',
+  broadcast: false,
+  message: Message {
+    conversation: '002-VeronicaJ',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '002-VeronicaJ',
+  from: '5214423501149'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214423501149@s.whatsapp.net',
+    fromMe: false,
+    id: '3A5DA32AE3ED099838A9',
+    participant: undefined
+  },
+  messageTimestamp: 1706941158,
+  pushName: 'joel montesanos',
+  broadcast: false,
+  message: Message {
+    conversation: 'operaciones',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'operaciones',
+  from: '5214423501149'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_35c62406-765b-42f3-acc6-fafb4f74e646',
+  keyword: 'key_3a545255-60da-4669-adb6-bdd4281b7ed1',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '000966e1c61d64b55e40178adf4d7916'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_132910fb-3eb6-47e8-bd8a-879c13f11371',
+  keyword: 'ans_35c62406-765b-42f3-acc6-fafb4f74e646',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'd30a7f2941135574cb853f046b5c9d8d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214423501149@s.whatsapp.net',
+    fromMe: false,
+    id: '3A8227068A8A75E583D8',
+    participant: undefined
+  },
+  messageTimestamp: 1706941162,
+  pushName: 'joel montesanos',
+  broadcast: false,
+  message: Message {
+    conversation: 'joelMontesano',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'joelMontesano',
+  from: '5214423501149'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214423501149@s.whatsapp.net',
+    fromMe: false,
+    id: '3A598B6A0457570CE741',
+    participant: undefined
+  },
+  messageTimestamp: 1706941168,
+  pushName: 'joel montesanos',
+  broadcast: false,
+  message: Message {
+    conversation: 'operaciones',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'operaciones',
+  from: '5214423501149'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_35c62406-765b-42f3-acc6-fafb4f74e646',
+  keyword: 'key_3a545255-60da-4669-adb6-bdd4281b7ed1',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '000966e1c61d64b55e40178adf4d7916'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_132910fb-3eb6-47e8-bd8a-879c13f11371',
+  keyword: 'ans_35c62406-765b-42f3-acc6-fafb4f74e646',
+  answer: '__capture_only_intended__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'd30a7f2941135574cb853f046b5c9d8d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214423501149@s.whatsapp.net',
+    fromMe: false,
+    id: '3AB96A4174D544A43266',
+    participant: undefined
+  },
+  messageTimestamp: 1706941179,
+  pushName: 'joel montesanos',
+  broadcast: false,
+  message: Message {
+    conversation: '002-VeronicaJ',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '002-VeronicaJ',
+  from: '5214423501149'
 }

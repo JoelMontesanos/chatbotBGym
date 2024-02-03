@@ -46,6 +46,4 @@ module.exports = addKeyword(['pagar'])
     await flowDynamic(`Aqui tienes el link: `)
     await flowDynamic(link.url)
     //console.log(link)
-    
-
 })
